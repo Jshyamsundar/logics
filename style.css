@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:ital,wght@1,400;1,500&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.hero{
+    background-image: url(./images/hero-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-color: #001d34;
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+}
+.button1{
+    background-color:#0d6efd;
+    color: white;
+    text-decoration:none;
+}
+.navbar{
+    background-color: #001d34;
+}
+.call{
+    background: linear-gradient(rgba(85, 61, 112, 0.808),rgba(85, 65, 107, 0.5)) ,url(images/cta-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 250px;
+    width: 100%;
+}
+.slides{
+    background: linear-gradient(rgba(84, 80, 112, 0.808),rgba(189, 153, 228, 0.5)) ,url(images/testimonials-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 20px 250px;
+    width: 100%;
+}
+.carousel-item img{
+    border: 7px solid lightgray;
+    width: 130px;
+    margin-bottom: 10px;
+}
+.carousel h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.carousel h5{
+    color:lightgrey;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.nav-item a.active{
+    color: #fff !important;
+}
+.carousel p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* .icons i{
+    display: flex;
+    color: #0d42ff;
+    margin-bottom: 30px;
+} */
+.icons i p{
+    font-size: 18px;
+    color: black;
+    margin-left: 15px;
+}
+.footer{
+    background-color: #001d34 !important;
+}
+.icon i{
+    font-size: 25px;
+    padding: 10px;
+    border: 2px solid gray !important;
+    border-radius: 30px !important;
+}
+@media(max-width:576px) {
+    .call{
+        padding: 0px 0px;
+    }
+    .slides{
+        padding: 0px 0px;
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+
+
